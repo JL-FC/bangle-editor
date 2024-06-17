@@ -1,6 +1,6 @@
 {
-  "name": "bangle.dev",
-  "version": "0.32.1",
+  "name": "@jl-fc/bangle.dev",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -13,15 +13,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editor/issues"
   },
   "workspaces": [
-    "tooling/*",
     "components/*",
-    "lib/*"
+    "lib/*",
+    "tooling/*"
   ],
   "scripts": {
     "g:build": "yarn node build.js",
@@ -31,7 +31,7 @@
     "test": "yarn lint && yarn g:e2e && yarn unit-tests",
     "unit-tests": "yarn jest",
     "lint": "yarn node tooling/bangle-scripts/check-dependencies.cjs && yarn prettier --check . && EsLintCycle=yes yarn eslint .",
-    "release-packages": "yarn tsc-check && yarn g:build && yarn workspaces foreach -pt --all  -v --no-private npm publish --otp $OTP",
+    "release-packages": "yarn tsc-check && yarn g:build && yarn workspaces run release-package",
     "release-packages-alpha": "yarn tsc-check && yarn g:build && yarn workspaces foreach -pt --all  -v --no-private npm publish --tag alpha --otp $OTP",
     "update-ts-references": "yarn node tooling/bangle-scripts/ts-references.js",
     "tsc-check": "yarn tsc -b",
@@ -102,7 +102,6 @@
     "prettier": "^2.8.8",
     "typescript": "^5.1.6"
   },
-  "packageManager": "yarn@4.0.1",
   "resolutions": {
     "orderedmap": "^1.1.8"
   }

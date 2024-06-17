@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/base-components",
-  "version": "0.32.1",
+  "name": "@jl-fc/base-components",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -15,16 +15,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editor/issues"
   },
   "sideEffects": false,
   "scripts": {
     "unit-tests": "yarn jest",
     "compile-ts": "yarn g:tsc --build $INIT_CWD",
-    "watch-ts": "yarn g:tsc -p $INIT_CWD -w"
+    "watch-ts": "yarn g:tsc -p $INIT_CWD -w",
+    "release-package": "npm publish --otp $OTP"
   },
   "peerDependencies": {
     "@bangle.dev/core": "*",
@@ -52,6 +53,7 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }
