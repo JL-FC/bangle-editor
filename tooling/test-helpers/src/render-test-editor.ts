@@ -2,11 +2,7 @@
  * @jest-environment jsdom
  */
 
-import {
-  BangleEditor,
-  BangleEditorState,
-  SpecRegistry,
-} from '@bangle.dev/core';
+import { BangleEditor, BangleEditorState, SpecRegistry } from '@jl-fc/core';
 import {
   EditorState,
   EditorView,
@@ -14,7 +10,7 @@ import {
   Schema,
   Selection,
   TextSelection,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 
 import { getDocLabels } from './schema-builders';
 

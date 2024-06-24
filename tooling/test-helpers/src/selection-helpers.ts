@@ -1,4 +1,4 @@
-import { EditorView, Selection } from '@bangle.dev/pm';
+import { EditorView, Selection } from '@jl-fc/pm';
 
 export function setSelectionNear(view: EditorView, pos: number) {
   let tr = view.state.tr;

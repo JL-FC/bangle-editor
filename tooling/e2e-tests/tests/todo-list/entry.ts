@@ -1,5 +1,5 @@
-import { defaultPlugins } from '@bangle.dev/all-base-components';
-import { parseFromClipboard, serializeForClipboard } from '@bangle.dev/pm';
+import { defaultPlugins } from '@jl-fc/all-base-components';
+import { parseFromClipboard, serializeForClipboard } from '@jl-fc/pm';
 
 import { setupReactEditor, win } from '../../setup/entry-helpers';
 

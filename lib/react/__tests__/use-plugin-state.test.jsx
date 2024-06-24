@@ -2,8 +2,8 @@
  * @jest-environment jsdom
  * @jsx pjsx
  */
-import { Plugin, PluginKey, SpecRegistry } from '@bangle.dev/core';
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
+import { Plugin, PluginKey, SpecRegistry } from '@jl-fc/core';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
 import { act, render } from '@testing-library/react';
 import { useEffect, useState } from 'react';
 import { BangleEditor, useEditorState, usePluginState } from '../src/index';

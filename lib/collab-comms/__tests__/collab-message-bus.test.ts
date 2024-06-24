@@ -1,4 +1,4 @@
-import { sleep } from '@bangle.dev/test-helpers';
+import { sleep } from '@jl-fc/test-helpers';
 
 import {
   CollabMessageBus,

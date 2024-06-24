@@ -14,7 +14,7 @@ import {
   Selection,
   Slice,
   Transaction,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 
 import { assertNotUndefined } from './js-utils';
 import {

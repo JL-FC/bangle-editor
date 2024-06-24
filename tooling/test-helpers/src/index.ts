@@ -1,4 +1,4 @@
-import { EditorView, Fragment, NodeSelection, Schema } from '@bangle.dev/pm';
+import { EditorView, Fragment, NodeSelection, Schema } from '@jl-fc/pm';
 
 export * from './create-event';
 export * from './dispatch-paste-event';

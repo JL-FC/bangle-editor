@@ -1,6 +1,4 @@
-import { getVersion, receiveTransaction } from 'prosemirror-collab';
-
-import { PullEventsResponseBody } from '@bangle.dev/collab-comms';
+import { PullEventsResponseBody } from '@jl-fc/collab-comms';
 import {
   EditorState,
   EditorView,
@@ -8,7 +6,8 @@ import {
   Selection,
   Step,
   TextSelection,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
+import { getVersion, receiveTransaction } from 'prosemirror-collab';
 
 import { collabClientKey } from './common';
 

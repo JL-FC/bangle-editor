@@ -2,14 +2,14 @@
  * @jest-environment jsdom
  */
 /** @jsx psx */
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
 import {
   getDefaultMarkdownItTokenizer,
   markdownParser,
   markdownSerializer,
-} from '@bangle.dev/markdown';
-import { psx } from '@bangle.dev/test-helpers';
+} from '@jl-fc/markdown';
+import { psx } from '@jl-fc/test-helpers';
 
 import { wikiLink, wikiLinkMarkdownItPlugin } from '../src/index';
 

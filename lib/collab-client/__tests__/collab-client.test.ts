@@ -2,9 +2,7 @@
  * @jest-environment jsdom
  */
 
-import waitForExpect from 'wait-for-expect';
-
-import { defaultSpecs } from '@bangle.dev/all-base-components';
+import { defaultSpecs } from '@jl-fc/all-base-components';
 import {
   CollabClientRequest,
   CollabClientRequestType,
@@ -14,15 +12,16 @@ import {
   DEFAULT_MANAGER_ID,
   Message,
   MessageType,
-} from '@bangle.dev/collab-comms';
+} from '@jl-fc/collab-comms';
 import {
   CollabManager,
   CollabServerState,
   MAX_STEP_HISTORY,
-} from '@bangle.dev/collab-manager';
-import { paragraph, SpecRegistry } from '@bangle.dev/core';
-import { renderTestEditor, sleep } from '@bangle.dev/test-helpers';
-import { uuid } from '@bangle.dev/utils';
+} from '@jl-fc/collab-manager';
+import { paragraph, SpecRegistry } from '@jl-fc/core';
+import { renderTestEditor, sleep } from '@jl-fc/test-helpers';
+import { uuid } from '@jl-fc/utils';
+import waitForExpect from 'wait-for-expect';
 
 import { CollabExtensionOptions, plugins } from '../src/collab-extension';
 import {

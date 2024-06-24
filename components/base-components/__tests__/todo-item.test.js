@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 /** @jsx psx */
-import { psx, sendKeyToPm, typeText } from '@bangle.dev/test-helpers';
+import { psx, sendKeyToPm, typeText } from '@jl-fc/test-helpers';
 
 import { listItem } from '../src/index';
 import { siblingsAndNodesBetween } from '../src/list-todo';

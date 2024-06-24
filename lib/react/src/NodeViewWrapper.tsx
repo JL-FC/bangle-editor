@@ -1,9 +1,8 @@
+import { NodeView, NodeViewProps } from '@jl-fc/core';
+import { EditorView, Node } from '@jl-fc/pm';
+import { bangleWarn, objectUid } from '@jl-fc/utils';
 import PropTypes from 'prop-types';
 import React from 'react';
-
-import { NodeView, NodeViewProps } from '@bangle.dev/core';
-import { EditorView, Node } from '@bangle.dev/pm';
-import { bangleWarn, objectUid } from '@bangle.dev/utils';
 
 const LOG = false;
 

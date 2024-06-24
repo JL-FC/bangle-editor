@@ -1,5 +1,5 @@
-import { EditorView } from '@bangle.dev/pm';
-import { assertNotUndefined, browser } from '@bangle.dev/utils';
+import { EditorView } from '@jl-fc/pm';
+import { assertNotUndefined, browser } from '@jl-fc/utils';
 // So the basic editing operations are not handled
 // by PM actively and instead it waits for the browser
 // to do its thing and then sync it with its view.

@@ -1,4 +1,4 @@
-import { Node } from '@bangle.dev/pm';
+import { Node } from '@jl-fc/pm';
 
 import type { BaseRawNodeSpec } from './spec-registry';
 

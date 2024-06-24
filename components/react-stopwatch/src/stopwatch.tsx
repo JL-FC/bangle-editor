@@ -1,15 +1,14 @@
-import React from 'react';
-
 import {
   BaseRawNodeSpec,
   domSerializationHelpers,
   NodeView,
   NodeViewProps,
   RawPlugins,
-} from '@bangle.dev/core';
-import type { Command } from '@bangle.dev/pm';
-import { keymap } from '@bangle.dev/pm';
-import { getNodeType } from '@bangle.dev/utils';
+} from '@jl-fc/core';
+import type { Command } from '@jl-fc/pm';
+import { keymap } from '@jl-fc/pm';
+import { getNodeType } from '@jl-fc/utils';
+import React from 'react';
 
 const LOG = false;
 

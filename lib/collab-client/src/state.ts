@@ -1,14 +1,13 @@
-import { getVersion, sendableSteps } from 'prosemirror-collab';
-
-import { CollabFail } from '@bangle.dev/collab-comms';
+import { CollabFail } from '@jl-fc/collab-comms';
 import {
   Command,
   EditorState,
   EditorView,
   Node,
   TextSelection,
-} from '@bangle.dev/pm';
-import { abortableSetTimeout, sleep } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { abortableSetTimeout, sleep } from '@jl-fc/utils';
+import { getVersion, sendableSteps } from 'prosemirror-collab';
 
 import {
   isOutdatedVersion,
@@ -250,7 +249,7 @@ export class InitState extends CollabBaseState {
       // This should not get called by any statically findable .transition() . However
       // dynamic code can possibly call it and it should be safe to ignore.
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return;
     }
   }
@@ -337,7 +336,7 @@ export class InitDocState extends CollabBaseState {
       );
     } else {
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return;
     }
   }
@@ -386,7 +385,7 @@ export class InitErrorState extends CollabBaseState {
       );
     } else {
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return undefined;
     }
   }
@@ -453,7 +452,7 @@ export class ReadyState extends CollabBaseState {
       return new PullState(this.state, debugInfo);
     } else {
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return;
     }
   }
@@ -565,7 +564,7 @@ export class PushState extends CollabBaseState {
       );
     } else {
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return;
     }
   }
@@ -717,7 +716,7 @@ export class PushPullErrorState extends CollabBaseState {
       );
     } else {
       let val: never = type;
-      console.debug('@bangle.dev/collab-client Ignoring event' + type);
+      console.debug('@jl-fc/collab-client Ignoring event' + type);
       return;
     }
   }

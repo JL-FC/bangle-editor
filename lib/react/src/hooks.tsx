@@ -1,8 +1,7 @@
+import { BangleEditorState, BangleEditorStateProps } from '@jl-fc/core';
+import { EditorView, Plugin, PluginKey } from '@jl-fc/pm';
+import { rafSchedule } from '@jl-fc/utils';
 import { useContext, useEffect, useState } from 'react';
-
-import { BangleEditorState, BangleEditorStateProps } from '@bangle.dev/core';
-import { EditorView, Plugin, PluginKey } from '@bangle.dev/pm';
-import { rafSchedule } from '@bangle.dev/utils';
 
 import { EditorViewContext } from './ReactEditor';
 

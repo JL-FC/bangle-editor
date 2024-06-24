@@ -45,85 +45,85 @@
     "target": "es2020",
     "useDefineForClassFields": true,
     "paths": {
-      "@bangle.dev/base-components": [
+      "@jl-fc/base-components": [
         "./components/base-components/src"
       ],
-      "@bangle.dev/emoji": [
+      "@jl-fc/emoji": [
         "./components/emoji/src"
       ],
-      "@bangle.dev/markdown-front-matter": [
+      "@jl-fc/markdown-front-matter": [
         "./components/markdown-front-matter/src"
       ],
-      "@bangle.dev/react-emoji-suggest": [
+      "@jl-fc/react-emoji-suggest": [
         "./components/react-emoji-suggest/src"
       ],
-      "@bangle.dev/react-menu": [
+      "@jl-fc/react-menu": [
         "./components/react-menu/src"
       ],
-      "@bangle.dev/react-sticker": [
+      "@jl-fc/react-sticker": [
         "./components/react-sticker/src"
       ],
-      "@bangle.dev/react-stopwatch": [
+      "@jl-fc/react-stopwatch": [
         "./components/react-stopwatch/src"
       ],
-      "@bangle.dev/search": [
+      "@jl-fc/search": [
         "./components/search/src"
       ],
-      "@bangle.dev/table": [
+      "@jl-fc/table": [
         "./components/table/src"
       ],
-      "@bangle.dev/text-formatting": [
+      "@jl-fc/text-formatting": [
         "./components/text-formatting/src"
       ],
-      "@bangle.dev/timestamp": [
+      "@jl-fc/timestamp": [
         "./components/timestamp/src"
       ],
-      "@bangle.dev/tooltip": [
+      "@jl-fc/tooltip": [
         "./components/tooltip/src"
       ],
-      "@bangle.dev/trailing-node": [
+      "@jl-fc/trailing-node": [
         "./components/trailing-node/src"
       ],
-      "@bangle.dev/wiki-link": [
+      "@jl-fc/wiki-link": [
         "./components/wiki-link/src"
       ],
       "broader-unit-tests": [
         "./lib/broader-unit-tests/src"
       ],
-      "@bangle.dev/collab-client": [
+      "@jl-fc/collab-client": [
         "./lib/collab-client/src"
       ],
-      "@bangle.dev/collab-manager": [
+      "@jl-fc/collab-manager": [
         "./lib/collab-manager/src"
       ],
-      "@bangle.dev/collab-comms": [
+      "@jl-fc/collab-comms": [
         "./lib/collab-comms/src"
       ],
-      "@bangle.dev/core": [
+      "@jl-fc/core": [
         "./lib/core/src"
       ],
-      "@bangle.dev/disk": [
+      "@jl-fc/disk": [
         "./lib/disk/src"
       ],
-      "@bangle.dev/markdown": [
+      "@jl-fc/markdown": [
         "./lib/markdown/src"
       ],
-      "@bangle.dev/pm": [
+      "@jl-fc/pm": [
         "./lib/pm/src"
       ],
-      "@bangle.dev/pm-commands": [
+      "@jl-fc/pm-commands": [
         "./lib/pm-commands/src"
       ],
-      "@bangle.dev/shared-types": [
+      "@jl-fc/shared-types": [
         "./lib/shared-types/src"
       ],
-      "@bangle.dev/react": [
+      "@jl-fc/react": [
         "./lib/react/src"
       ],
-      "@bangle.dev/utils": [
+      "@jl-fc/utils": [
         "./lib/utils/src"
       ],
-      "@bangle.dev/all-base-components": [
+      "@jl-fc/all-base-components": [
         "./tooling/all-base-components/src"
       ],
       "bangle-scripts": [
@@ -132,10 +132,10 @@
       "e2e-tests": [
         "./tooling/e2e-tests/tests"
       ],
-      "@bangle.dev/jest-utils": [
+      "@jl-fc/jest-utils": [
         "./tooling/jest-utils/src"
       ],
-      "@bangle.dev/test-helpers": [
+      "@jl-fc/test-helpers": [
         "./tooling/test-helpers/src"
       ]
     }

@@ -1,5 +1,5 @@
 /* TODO (this does not work when consuming this package as a library
- @import '@bangle.dev/tooltip/style.css'; */
+ @import '@jl-fc/tooltip/style.css'; */
 
 :root {
   --bangle-floating-menu-bg-color: #333;

@@ -1,4 +1,5 @@
 const { walkWorkspace } = require('./workspace-tools.cjs');
+
 main();
 async function main() {
   await checkDependencyVersion();
@@ -15,7 +16,7 @@ function checkMultipleInstances() {
     .map((r) => JSON.parse(r))
     .filter(
       (r) =>
-        r.value.startsWith('@bangle.dev/') ||
+        r.value.startsWith('@jl-fc/') ||
         r.value.startsWith('prosemirror-'),
     );
   const faultyDeps = output.filter((r) => r.children.Instances > 1);
@@ -48,9 +49,9 @@ async function checkPeerDeps() {
           `In pkg "${workspace.name}" peerDependency "${peerDep}" must also be a devDependency`,
         );
       }
-      if (peerDep === '@bangle.dev/utils') {
+      if (peerDep === '@jl-fc/utils') {
         throw new Error(
-          `In pkg "${workspace.name}" @bangle.dev/utils cannot be a peerDependency`,
+          `In pkg "${workspace.name}" @jl-fc/utils cannot be a peerDependency`,
         );
       }
     }

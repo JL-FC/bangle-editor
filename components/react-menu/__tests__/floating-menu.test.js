@@ -3,14 +3,11 @@
  */
 
 /** @jsx pjsx */
-import { defaultSpecs } from '@bangle.dev/all-base-components';
-import { link } from '@bangle.dev/base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { NodeSelection, PluginKey, TextSelection } from '@bangle.dev/pm';
-import {
-  pjsx,
-  reactTestEditor,
-} from '@bangle.dev/react/__tests__/helpers/index';
+import { defaultSpecs } from '@jl-fc/all-base-components';
+import { link } from '@jl-fc/base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { NodeSelection, PluginKey, TextSelection } from '@jl-fc/pm';
+import { pjsx, reactTestEditor } from '@jl-fc/react/__tests__/helpers/index';
 
 import { floatingMenu } from '../src/index';
 

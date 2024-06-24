@@ -1,7 +1,7 @@
-import { defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { Node, ReplaceStep, Slice } from '@bangle.dev/pm';
-import { assertNotUndefined, Either } from '@bangle.dev/utils';
+import { defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { Node, ReplaceStep, Slice } from '@jl-fc/pm';
+import { assertNotUndefined, Either } from '@jl-fc/utils';
 
 import {
   CollabServerState,

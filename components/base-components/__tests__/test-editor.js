@@ -1,5 +1,5 @@
-import { SpecRegistry } from '@bangle.dev/core';
-import { renderTestEditor } from '@bangle.dev/test-helpers';
+import { SpecRegistry } from '@jl-fc/core';
+import { renderTestEditor } from '@jl-fc/test-helpers';
 
 import { defaultPlugins, defaultSpecs } from './all-base-components';
 

@@ -1,4 +1,4 @@
-import type { Node } from '@bangle.dev/pm';
+import type { Node } from '@jl-fc/pm';
 
 export abstract class Disk {
   abstract flush(_key: string, _doc: Node, version: number): Promise<void>;

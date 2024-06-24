@@ -1,8 +1,4 @@
-import {
-  BaseRawMarkSpec,
-  BaseRawNodeSpec,
-  SpecRegistry,
-} from '@bangle.dev/core';
+import { BaseRawMarkSpec, BaseRawNodeSpec, SpecRegistry } from '@jl-fc/core';
 
 export function markdownLoader(specRegistry = new SpecRegistry()) {
   const tokens: { [key: string]: any } = Object.fromEntries(

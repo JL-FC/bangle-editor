@@ -1,4 +1,4 @@
-import { EditorState, InputRule, Schema, TextSelection } from '@bangle.dev/pm';
+import { EditorState, InputRule, Schema, TextSelection } from '@jl-fc/pm';
 
 // ProseMirror uses the Unicode Character 'OBJECT REPLACEMENT CHARACTER' (U+FFFC) as text representation for
 // leaf nodes, i.e. nodes that don't have any content or text property (e.g. hardBreak, emoji)

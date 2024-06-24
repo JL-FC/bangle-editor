@@ -1,16 +1,15 @@
-import React from 'react';
-
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { NodeViewProps, SpecRegistry } from '@bangle.dev/core';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { NodeViewProps, SpecRegistry } from '@jl-fc/core';
 import {
   DOMSerializer,
   EditorView,
   parseFromClipboard,
   serializeForClipboard,
   Slice,
-} from '@bangle.dev/pm';
-import { sticker } from '@bangle.dev/react-sticker';
-import { stopwatch } from '@bangle.dev/react-stopwatch';
+} from '@jl-fc/pm';
+import { sticker } from '@jl-fc/react-sticker';
+import { stopwatch } from '@jl-fc/react-stopwatch';
+import React from 'react';
 
 import { setupReactEditor, win } from '../../setup/entry-helpers';
 

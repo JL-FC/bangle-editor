@@ -1,4 +1,4 @@
-import { inlineNodeParser } from '@bangle.dev/markdown';
+import { inlineNodeParser } from '@jl-fc/markdown';
 
 export function wikiLinkMarkdownItPlugin(md: any) {
   inlineNodeParser(md, {

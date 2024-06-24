@@ -1,3 +1,6 @@
+import { Plugin } from '@jl-fc/core';
+import { DOMOutputSpec, EditorState, EditorView, PluginKey } from '@jl-fc/pm';
+import { bangleWarn } from '@jl-fc/utils';
 import {
   Instance as PopperInstance,
   Modifier,
@@ -5,15 +8,6 @@ import {
   State as PopperState,
   VirtualElement,
 } from '@popperjs/core';
-
-import { Plugin } from '@bangle.dev/core';
-import {
-  DOMOutputSpec,
-  EditorState,
-  EditorView,
-  PluginKey,
-} from '@bangle.dev/pm';
-import { bangleWarn } from '@bangle.dev/utils';
 
 import { createTooltipDOM } from './create-tooltip-dom';
 import {

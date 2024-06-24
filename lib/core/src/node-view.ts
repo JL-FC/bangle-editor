@@ -7,8 +7,8 @@ import {
   Plugin,
   PluginKey,
   Transaction,
-} from '@bangle.dev/pm';
-import { bangleWarn } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { bangleWarn } from '@jl-fc/utils';
 
 import { createElement } from './create-element';
 import { deepCompare } from './utils';

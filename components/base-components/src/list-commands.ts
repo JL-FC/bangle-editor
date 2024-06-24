@@ -19,8 +19,8 @@ import {
   TextSelection,
   Transaction,
   wrapInList as pmWrapInList,
-} from '@bangle.dev/pm';
-import type { MoveDirection } from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm';
+import type { MoveDirection } from '@jl-fc/pm-commands';
 import {
   compose,
   extendDispatch,
@@ -42,7 +42,7 @@ import {
   sanitiseSelectionMarksForWrapping,
   validListParent,
   validPos,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 import {
   isNodeTodo,

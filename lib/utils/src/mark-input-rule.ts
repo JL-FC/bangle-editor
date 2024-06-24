@@ -1,4 +1,4 @@
-import { EditorState, InputRule, Mark, MarkType } from '@bangle.dev/pm';
+import { EditorState, InputRule, Mark, MarkType } from '@jl-fc/pm';
 
 function getMarksBetween(start: number, end: number, state: EditorState) {
   let marks: Array<{ start: number; end: number; mark: Mark }> = [];

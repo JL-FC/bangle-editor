@@ -8,8 +8,8 @@ import {
   dispatchPasteEvent,
   psx,
   typeText,
-} from '@bangle.dev/test-helpers';
-import { sleep } from '@bangle.dev/utils';
+} from '@jl-fc/test-helpers';
+import { sleep } from '@jl-fc/utils';
 
 import { defaultTestEditor } from './test-editor';
 

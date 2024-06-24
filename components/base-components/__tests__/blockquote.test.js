@@ -3,7 +3,7 @@
  */
 
 /** @jsx psx */
-import { psx, sendKeyToPm, typeText } from '@bangle.dev/test-helpers';
+import { psx, sendKeyToPm, typeText } from '@jl-fc/test-helpers';
 
 import { blockquote } from '../src/index';
 import { defaultTestEditor } from './test-editor';

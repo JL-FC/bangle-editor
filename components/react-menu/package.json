@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/react-menu",
-  "version": "0.32.1",
+  "name": "@jl-fc/react-menu",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -16,31 +16,34 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editorgit"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editorissues"
+  },
+  "scripts": {
+    "release-package": "npm publish --otp $OTP"
   },
   "dependencies": {
-    "@bangle.dev/base-components": "workspace:*",
-    "@bangle.dev/utils": "workspace:*",
+    "@jl-fc/base-components": "workspace:*",
+    "@jl-fc/utils": "workspace:*",
     "@types/jest": "^29.5.3",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@bangle.dev/core": "*",
-    "@bangle.dev/pm": "*",
-    "@bangle.dev/react": "*",
-    "@bangle.dev/tooltip": "*",
+    "@jl-fc/core": "*",
+    "@jl-fc/pm": "*",
+    "@jl-fc/react": "*",
+    "@jl-fc/tooltip": "*",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
-    "@bangle.dev/all-base-components": "workspace:*",
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/pm": "workspace:*",
-    "@bangle.dev/react": "workspace:*",
-    "@bangle.dev/tooltip": "workspace:*",
+    "@jl-fc/all-base-components": "workspace:*",
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
+    "@jl-fc/react": "workspace:*",
+    "@jl-fc/tooltip": "workspace:*",
     "@testing-library/react": "^11.2.7",
     "@types/prop-types": "^15.7.4",
     "@types/react": "^17.0.45",
@@ -59,6 +62,7 @@
         "require": "./dist/index.cjs"
       },
       "./style.css": "./style.css"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }

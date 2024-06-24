@@ -9,8 +9,8 @@ import {
   Selection,
   Slice,
   TextSelection,
-} from '@bangle.dev/pm';
-import { findParentNodeOfType, mapChildren } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { findParentNodeOfType, mapChildren } from '@jl-fc/utils';
 
 export type MoveDirection = 'UP' | 'DOWN';
 

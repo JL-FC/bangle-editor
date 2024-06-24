@@ -6,12 +6,12 @@ import {
   BangleEditor as CoreBangleEditorView,
   getRenderHandlers,
   SpecRegistry,
-} from '@bangle.dev/core';
+} from '@jl-fc/core';
 import React, { useEffect, useRef } from 'react';
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { selectNodeAt } from '@bangle.dev/test-helpers';
-import { EditorView as PMEditorView, Node } from '@bangle.dev/pm';
-import { removeSelectedNode, safeInsert, sleep } from '@bangle.dev/utils';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { selectNodeAt } from '@jl-fc/test-helpers';
+import { EditorView as PMEditorView, Node } from '@jl-fc/pm';
+import { removeSelectedNode, safeInsert, sleep } from '@jl-fc/utils';
 import { fireEvent, render } from '@testing-library/react';
 import { useEditorState } from '../src/hooks';
 import { BangleEditor } from '../src/index';

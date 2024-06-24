@@ -1,12 +1,6 @@
-import {
-  bold,
-  doc,
-  hardBreak,
-  paragraph,
-  text,
-} from '@bangle.dev/base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { MarkType, NodeType } from '@bangle.dev/pm';
+import { bold, doc, hardBreak, paragraph, text } from '@jl-fc/base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { MarkType, NodeType } from '@jl-fc/pm';
 
 test('Loads node and marks schema correctly', () => {
   const schema = new SpecRegistry([

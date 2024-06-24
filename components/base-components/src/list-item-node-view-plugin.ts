@@ -1,6 +1,6 @@
-import { NodeView, UpdateAttrsFunction } from '@bangle.dev/core';
-import { EditorState, Node } from '@bangle.dev/pm';
-import { createElement } from '@bangle.dev/utils';
+import { NodeView, UpdateAttrsFunction } from '@jl-fc/core';
+import { EditorState, Node } from '@jl-fc/pm';
+import { createElement } from '@jl-fc/utils';
 
 const LOG = false;
 

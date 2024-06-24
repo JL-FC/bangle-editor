@@ -1,8 +1,7 @@
+import { CollabMessageBus, DEFAULT_MANAGER_ID } from '@jl-fc/collab-comms';
+import { Plugin } from '@jl-fc/pm';
+import { uuid } from '@jl-fc/utils';
 import { collab } from 'prosemirror-collab';
-
-import { CollabMessageBus, DEFAULT_MANAGER_ID } from '@bangle.dev/collab-comms';
-import { Plugin } from '@bangle.dev/pm';
-import { uuid } from '@bangle.dev/utils';
 
 import { collabClientPlugin } from './collab-client';
 import { hardResetClient, queryCollabState, queryFatalError } from './commands';

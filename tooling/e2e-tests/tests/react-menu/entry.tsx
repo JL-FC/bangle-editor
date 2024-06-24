@@ -1,9 +1,8 @@
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { NodeViewProps, PluginKey, SpecRegistry } from '@jl-fc/core';
+import { FloatingMenu, floatingMenu } from '@jl-fc/react-menu';
+import { sticker } from '@jl-fc/react-sticker';
 import React from 'react';
-
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { NodeViewProps, PluginKey, SpecRegistry } from '@bangle.dev/core';
-import { FloatingMenu, floatingMenu } from '@bangle.dev/react-menu';
-import { sticker } from '@bangle.dev/react-sticker';
 
 import { setupReactEditor, win } from '../../setup/entry-helpers';
 

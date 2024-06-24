@@ -1,4 +1,4 @@
-import { psx as banglePsx } from '@bangle.dev/test-helpers';
+import { psx as banglePsx } from '@jl-fc/test-helpers';
 import React from 'react';
 
 export function pjsx(name, ...args) {

@@ -3,9 +3,9 @@
  */
 /** @jsx psx */
 
-import { defaultSpecs } from '@bangle.dev/all-base-components';
-import { PluginKey, SpecRegistry } from '@bangle.dev/core';
-import { psx, renderTestEditor } from '@bangle.dev/test-helpers';
+import { defaultSpecs } from '@jl-fc/all-base-components';
+import { PluginKey, SpecRegistry } from '@jl-fc/core';
+import { psx, renderTestEditor } from '@jl-fc/test-helpers';
 
 import { search } from '../src/index';
 

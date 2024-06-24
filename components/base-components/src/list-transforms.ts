@@ -12,14 +12,14 @@ import {
   Slice,
   TextSelection,
   Transaction,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   getListLiftTarget,
   getNodeType,
   getParaNodeType,
   mapChildren,
   mapSlice,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 function liftListItem(
   type: NodeType | undefined,

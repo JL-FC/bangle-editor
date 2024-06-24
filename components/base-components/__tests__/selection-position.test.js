@@ -3,7 +3,7 @@
  */
 
 /** @jsx psx */
-import { psx } from '@bangle.dev/test-helpers';
+import { psx } from '@jl-fc/test-helpers';
 
 import { defaultTestEditor } from './test-editor';
 

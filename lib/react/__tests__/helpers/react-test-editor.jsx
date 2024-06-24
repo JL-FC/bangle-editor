@@ -1,8 +1,8 @@
 /**
  * @jest-environment jsdom
  */
-import { getDocLabels } from '@bangle.dev/test-helpers';
-import { TextSelection } from '@bangle.dev/pm';
+import { getDocLabels } from '@jl-fc/test-helpers';
+import { TextSelection } from '@jl-fc/pm';
 import { act, render } from '@testing-library/react';
 import React from 'react';
 import { BangleEditor, useEditorState } from '../../src/index';

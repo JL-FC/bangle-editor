@@ -1,5 +1,5 @@
-import { DOMOutputSpec, Node } from '@bangle.dev/pm';
-import { objectFilter } from '@bangle.dev/utils';
+import { DOMOutputSpec, Node } from '@jl-fc/pm';
+import { objectFilter } from '@jl-fc/utils';
 
 /**
  * Creates a bare bone `toDOM` and `parseDOM` handlers for the PM schema.

@@ -2,13 +2,8 @@
  * @jest-environment jsdom
  */
 /** @jsx psx */
-import { SpecRegistry } from '@bangle.dev/core';
-import {
-  psx,
-  selectNodeAt,
-  sendKeyToPm,
-  typeText,
-} from '@bangle.dev/test-helpers';
+import { SpecRegistry } from '@jl-fc/core';
+import { psx, selectNodeAt, sendKeyToPm, typeText } from '@jl-fc/test-helpers';
 
 import { defaultKeys as bulletListDefaultKeys } from '../src/bullet-list';
 import {

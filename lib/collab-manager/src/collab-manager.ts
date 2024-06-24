@@ -12,9 +12,9 @@ import {
   PullEventsResponseBody,
   PushEventsRequestBody,
   PushEventsResponseBody,
-} from '@bangle.dev/collab-comms';
-import { Schema, Step } from '@bangle.dev/pm';
-import { Either, EitherType, isTestEnv } from '@bangle.dev/utils';
+} from '@jl-fc/collab-comms';
+import { Schema, Step } from '@jl-fc/pm';
+import { Either, EitherType, isTestEnv } from '@jl-fc/utils';
 
 import { CollabServerState, StepBigger } from './collab-state';
 import { InstanceDeleteGuard } from './instance-delete-guard';

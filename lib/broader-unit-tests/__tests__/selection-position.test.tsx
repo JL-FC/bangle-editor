@@ -3,9 +3,9 @@
  */
 
 /** @jsx psx */
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { psx, renderTestEditor } from '@bangle.dev/test-helpers';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { psx, renderTestEditor } from '@jl-fc/test-helpers';
 
 const testEditor = renderTestEditor({
   specRegistry: new SpecRegistry(defaultSpecs()),

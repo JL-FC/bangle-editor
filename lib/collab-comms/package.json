@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/collab-comms",
-  "version": "0.32.1",
+  "name": "@jl-fc/collab-comms",
+  "version": "0.32.2",
   "description": "A package for managing communication of collab clients with their manager",
   "homepage": "https://bangle.dev",
   "authors": [
@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editor/issues"
   },
   "publishConfig": {
     "access": "public",
@@ -29,14 +29,16 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "compile-ts": "yarn g:tsc --build $INIT_CWD",
-    "watch-ts": "yarn g:tsc -p $INIT_CWD -w"
+    "watch-ts": "yarn g:tsc -p $INIT_CWD -w",
+    "release-package": "npm publish --otp $OTP"
   },
   "devDependencies": {
-    "@bangle.dev/test-helpers": "workspace:*",
+    "@jl-fc/test-helpers": "workspace:*",
     "@types/node": "^17.0.43",
     "wait-for-expect": "^3.0.2"
   },

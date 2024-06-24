@@ -6,8 +6,8 @@ import {
   Node,
   Schema,
   Transaction,
-} from '@bangle.dev/pm';
-import { filter, getNodeType } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { filter, getNodeType } from '@jl-fc/utils';
 
 export const isNodeTodo = (node: Node, schema: Schema) => {
   return (

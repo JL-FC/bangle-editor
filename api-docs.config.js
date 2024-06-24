@@ -16,7 +16,7 @@ module.exports = (Handlebars, resolvePath) => {
     );
 
     peerDependencies = Object.keys(peerDependencies).filter((r) =>
-      r.startsWith('@bangle.dev/'),
+      r.startsWith('@jl-fc/'),
     );
 
     const peerDependenciesStr =

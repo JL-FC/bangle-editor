@@ -1,14 +1,14 @@
-import { defaultSpecs } from '@bangle.dev/all-base-components';
+import { defaultSpecs } from '@jl-fc/all-base-components';
 import {
   ClientCommunication,
   CollabClientRequestType,
   CollabFail,
   CollabMessageBus,
   DEFAULT_MANAGER_ID,
-} from '@bangle.dev/collab-comms';
-import { SpecRegistry } from '@bangle.dev/core';
-import { Node, selectParentNode } from '@bangle.dev/pm';
-import { sleep } from '@bangle.dev/utils';
+} from '@jl-fc/collab-comms';
+import { SpecRegistry } from '@jl-fc/core';
+import { Node, selectParentNode } from '@jl-fc/pm';
+import { sleep } from '@jl-fc/utils';
 
 import { CollabServerState } from '../src';
 import { CollabManager } from '../src/collab-manager';
@@ -17,7 +17,7 @@ export {
   ClientCommunication,
   CollabClientRequestType,
   CollabFail,
-} from '@bangle.dev/collab-comms';
+} from '@jl-fc/collab-comms';
 
 const specRegistry = new SpecRegistry([...defaultSpecs()]);
 

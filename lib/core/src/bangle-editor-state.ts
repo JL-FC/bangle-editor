@@ -8,7 +8,7 @@ import {
   ParseOptions,
   Schema,
   Selection,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 
 import { pluginLoader, RawPlugins } from './plugin-loader';
 import { RawSpecs, SpecRegistry } from './spec-registry';

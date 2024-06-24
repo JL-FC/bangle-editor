@@ -1,5 +1,5 @@
-import { ClientCommunication, CollabFail } from '@bangle.dev/collab-comms';
-import { Node, PluginKey, TextSelection } from '@bangle.dev/pm';
+import { ClientCommunication, CollabFail } from '@jl-fc/collab-comms';
+import { Node, PluginKey, TextSelection } from '@jl-fc/pm';
 
 import type { ValidCollabState } from './state';
 

@@ -1,17 +1,20 @@
 {
-  "name": "@bangle.dev/jest-utils",
-  "version": "0.32.1",
+  "name": "@jl-fc/jest-utils",
+  "version": "0.32.2",
   "type": "module",
   "main": "src/index.ts",
   "module": "src/index.ts",
   "dependencies": {
-    "@bangle.dev/pm": "workspace:*",
-    "@bangle.dev/test-helpers": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
+    "@jl-fc/test-helpers": "workspace:*",
     "@types/jest": "^29.5.3",
     "prettier": "^2.8.8"
   },
   "devDependencies": {
     "@types/prettier": "^2.6.3"
+  },
+  "scripts": {
+    "release-package": "npm publish --otp $OTP"
   },
   "publishConfig": {
     "access": "public",
@@ -21,6 +24,7 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }

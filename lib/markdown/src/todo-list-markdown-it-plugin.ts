@@ -1,6 +1,5 @@
+import { assertNotUndefined } from '@jl-fc/utils';
 import Token from 'markdown-it/lib/token';
-
-import { assertNotUndefined } from '@bangle.dev/utils';
 
 export function todoListMarkdownItPlugin(
   md: any,

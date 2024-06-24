@@ -1,7 +1,6 @@
+import { NodeView, RenderHandlers, saveRenderHandlers } from '@jl-fc/core';
+import { objectUid } from '@jl-fc/utils';
 import { RefObject, useEffect, useState } from 'react';
-
-import { NodeView, RenderHandlers, saveRenderHandlers } from '@bangle.dev/core';
-import { objectUid } from '@bangle.dev/utils';
 
 const LOG = false;
 

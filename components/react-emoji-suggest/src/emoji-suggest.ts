@@ -1,21 +1,21 @@
-import { BaseRawMarkSpec, SpecRegistry } from '@bangle.dev/core';
+import { BaseRawMarkSpec, SpecRegistry } from '@jl-fc/core';
 import type {
   Command,
   EditorState,
   InputRule,
   Plugin,
   Schema,
-} from '@bangle.dev/pm';
-import { PluginKey } from '@bangle.dev/pm';
-import type { SuggestTooltipRenderOpts } from '@bangle.dev/tooltip';
-import { createTooltipDOM, suggestTooltip } from '@bangle.dev/tooltip';
+} from '@jl-fc/pm';
+import { PluginKey } from '@jl-fc/pm';
+import type { SuggestTooltipRenderOpts } from '@jl-fc/tooltip';
+import { createTooltipDOM, suggestTooltip } from '@jl-fc/tooltip';
 import {
   bangleWarn,
   getNodeType,
   rafCommandExec,
   uuid,
   valuePlugin,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 import { EmojiGroupType } from './types';
 import { getSquareDimensions, resolveCounter, resolveRowJump } from './utils';

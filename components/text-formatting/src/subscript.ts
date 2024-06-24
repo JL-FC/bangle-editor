@@ -1,11 +1,11 @@
-import type { BaseRawMarkSpec, RawPlugins } from '@bangle.dev/core';
-import type { Command, Schema } from '@bangle.dev/pm';
-import { keymap, toggleMark } from '@bangle.dev/pm';
+import type { BaseRawMarkSpec, RawPlugins } from '@jl-fc/core';
+import type { Command, Schema } from '@jl-fc/pm';
+import { keymap, toggleMark } from '@jl-fc/pm';
 import {
   assertNotUndefined,
   createObject,
   isMarkActiveInSelection,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

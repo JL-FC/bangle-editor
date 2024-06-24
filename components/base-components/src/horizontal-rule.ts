@@ -1,6 +1,6 @@
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
-import { DOMOutputSpec, InputRule, Schema } from '@bangle.dev/pm';
-import { getNodeType, getParaNodeType, safeInsert } from '@bangle.dev/utils';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
+import { DOMOutputSpec, InputRule, Schema } from '@jl-fc/pm';
+import { getNodeType, getParaNodeType, safeInsert } from '@jl-fc/utils';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

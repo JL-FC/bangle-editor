@@ -1,4 +1,4 @@
-import type { Plugin } from '@bangle.dev/pm';
+import type { Plugin } from '@jl-fc/pm';
 
 interface DeepPluginArray extends Array<Plugin | DeepPluginArray> {}
 

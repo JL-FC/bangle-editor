@@ -1,7 +1,4 @@
-import type Token from 'markdown-it/lib/token';
-import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   chainCommands,
   Command,
@@ -10,9 +7,11 @@ import {
   keymap,
   Node,
   wrappingInputRule,
-} from '@bangle.dev/pm';
-import { parentHasDirectParentOfType } from '@bangle.dev/pm-commands';
-import { createObject, getNodeType } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { parentHasDirectParentOfType } from '@jl-fc/pm-commands';
+import { createObject, getNodeType } from '@jl-fc/utils';
+import type Token from 'markdown-it/lib/token';
+import type { MarkdownSerializerState } from 'prosemirror-markdown';
 
 import { toggleList } from './list-commands';
 import { listIsTight } from './list-is-tight';

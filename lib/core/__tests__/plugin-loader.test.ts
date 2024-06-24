@@ -1,4 +1,4 @@
-import { Plugin, PluginKey } from '@bangle.dev/pm';
+import { Plugin, PluginKey } from '@jl-fc/pm';
 
 import { criticalComponents } from '../src/index';
 import { NodeView } from '../src/node-view';

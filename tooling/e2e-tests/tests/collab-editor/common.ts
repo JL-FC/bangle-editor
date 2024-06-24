@@ -1,4 +1,4 @@
-import type { BangleEditor } from '@bangle.dev/core';
+import type { BangleEditor } from '@jl-fc/core';
 
 export interface EditorInfo {
   bangleEditor?: BangleEditor;

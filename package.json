@@ -1,5 +1,5 @@
 {
-  "name": "@jl-fc/bangle.dev",
+  "name": "jl-fc",
   "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
@@ -73,7 +73,7 @@
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@babel/preset-typescript": "^7.17.12",
-    "@bangle.dev/jest-utils": "workspace:*",
+    "@jl-fc/jest-utils": "workspace:*",
     "@types/jest": "^29.5.3",
     "@types/node": "^17.0.41",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -104,5 +104,6 @@
   },
   "resolutions": {
     "orderedmap": "^1.1.8"
-  }
+  },
+  "packageManager": "yarn@4.3.1"
 }

@@ -1,4 +1,4 @@
-import { Plugin, PluginKey } from '@bangle.dev/pm';
+import { Plugin, PluginKey } from '@jl-fc/pm';
 
 import { PluginGroup } from './plugin-group';
 import type { RawPlugins } from './plugin-loader';

@@ -8,7 +8,7 @@ import {
   sendKeyToPm,
   setSelectionNear,
   typeText,
-} from '@bangle.dev/test-helpers';
+} from '@jl-fc/test-helpers';
 
 import { italic } from '../src/index';
 import { defaultTestEditor } from './test-editor';

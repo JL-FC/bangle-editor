@@ -1,4 +1,4 @@
-import type { BaseRawMarkSpec, RawPlugins } from '@bangle.dev/core';
+import type { BaseRawMarkSpec, RawPlugins } from '@jl-fc/core';
 import {
   Command,
   EditorState,
@@ -10,7 +10,7 @@ import {
   PluginKey,
   Schema,
   Selection,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   assertNotUndefined,
   createObject,
@@ -18,7 +18,7 @@ import {
   findFirstMarkPosition,
   isChromeWithSelectionBug,
   safeInsert,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 import type {
   GetReferenceElementFunction,

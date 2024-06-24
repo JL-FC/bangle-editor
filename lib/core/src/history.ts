@@ -1,6 +1,6 @@
-import * as pmHistory from '@bangle.dev/pm';
-import { keymap } from '@bangle.dev/pm';
-import { createObject } from '@bangle.dev/utils';
+import * as pmHistory from '@jl-fc/pm';
+import { keymap } from '@jl-fc/pm';
+import { createObject } from '@jl-fc/utils';
 
 import { PluginGroup } from './plugin-group';
 import type { RawPlugins } from './plugin-loader';

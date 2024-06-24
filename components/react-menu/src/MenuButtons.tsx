@@ -1,6 +1,3 @@
-import PropTypes from 'prop-types';
-import React, { useCallback } from 'react';
-
 import {
   blockquote,
   bold,
@@ -12,10 +9,12 @@ import {
   link,
   orderedList,
   paragraph,
-} from '@bangle.dev/base-components';
-import { EditorState, PluginKey } from '@bangle.dev/pm';
-import { useEditorViewContext } from '@bangle.dev/react';
-import { filter, rafCommandExec } from '@bangle.dev/utils';
+} from '@jl-fc/base-components';
+import { EditorState, PluginKey } from '@jl-fc/pm';
+import { useEditorViewContext } from '@jl-fc/react';
+import { filter, rafCommandExec } from '@jl-fc/utils';
+import PropTypes from 'prop-types';
+import React, { useCallback } from 'react';
 
 import {
   defaultKeys as floatingMenuKeys,

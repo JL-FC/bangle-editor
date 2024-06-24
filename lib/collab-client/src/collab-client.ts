@@ -1,11 +1,7 @@
+import { ClientCommunication, CollabMessageBus } from '@jl-fc/collab-comms';
+import { EditorState, EditorView, Plugin } from '@jl-fc/pm';
+import { isTestEnv } from '@jl-fc/utils';
 import { getVersion, sendableSteps } from 'prosemirror-collab';
-
-import {
-  ClientCommunication,
-  CollabMessageBus,
-} from '@bangle.dev/collab-comms';
-import { EditorState, EditorView, Plugin } from '@bangle.dev/pm';
-import { isTestEnv } from '@bangle.dev/utils';
 
 import {
   hardResetClient,
@@ -85,7 +81,7 @@ export function collabClientPlugin({
 
         // prevent any other tr while state is in one of the no-edit state
         if (tr.docChanged && getCollabState(state)?.isEditingBlocked === true) {
-          console.debug('@bangle.dev/collab-client blocking transaction');
+          console.debug('@jl-fc/collab-client blocking transaction');
           return false;
         }
 

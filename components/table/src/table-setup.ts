@@ -1,10 +1,9 @@
-// Not importing @bangle.dev/markdown to avoid cyclic dependency
+// Not importing @jl-fc/markdown to avoid cyclic dependency
+import type { BaseRawNodeSpec, RawPlugins } from '@jl-fc/core';
+import type { Node } from '@jl-fc/pm';
+import { goToNextCell, keymap, tableEditing, tableNodes } from '@jl-fc/pm';
 import type Token from 'markdown-it/lib/token';
 import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { BaseRawNodeSpec, RawPlugins } from '@bangle.dev/core';
-import type { Node } from '@bangle.dev/pm';
-import { goToNextCell, keymap, tableEditing, tableNodes } from '@bangle.dev/pm';
 
 function calculateColumnWidth(tableNode: Node) {
   const sizeMap = new Map();

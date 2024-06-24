@@ -1,6 +1,5 @@
+import { SpecRegistry } from '@jl-fc/core';
 import { MarkdownSerializer } from 'prosemirror-markdown';
-
-import { SpecRegistry } from '@bangle.dev/core';
 
 import { markdownLoader } from './markdown-loader';
 // A markdown serializer which uses a node/mark schema's

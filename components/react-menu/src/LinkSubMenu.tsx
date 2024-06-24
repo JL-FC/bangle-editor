@@ -1,8 +1,7 @@
+import { link } from '@jl-fc/base-components';
+import { EditorView } from '@jl-fc/pm';
+import { useEditorViewContext } from '@jl-fc/react';
 import React, { useRef, useState } from 'react';
-
-import { link } from '@bangle.dev/base-components';
-import { EditorView } from '@bangle.dev/pm';
-import { useEditorViewContext } from '@bangle.dev/react';
 
 import { MenuButton } from './Icon';
 import * as Icons from './Icons';

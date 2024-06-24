@@ -1,13 +1,13 @@
-import type { RawPlugins } from '@bangle.dev/core';
-import type { Command, EditorProps, Node } from '@bangle.dev/pm';
+import type { RawPlugins } from '@jl-fc/core';
+import type { Command, EditorProps, Node } from '@jl-fc/pm';
 import {
   Decoration,
   DecorationSet,
   EditorState,
   Plugin,
   PluginKey,
-} from '@bangle.dev/pm';
-import { matchAllPlus } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { matchAllPlus } from '@jl-fc/utils';
 
 const name = 'search';
 export const plugins = pluginsFactory;

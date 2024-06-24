@@ -1,7 +1,6 @@
+import { domSerializationHelpers, RawSpecs } from '@jl-fc/core';
+import type { Command, Node } from '@jl-fc/pm';
 import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import { domSerializationHelpers, RawSpecs } from '@bangle.dev/core';
-import type { Command, Node } from '@bangle.dev/pm';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

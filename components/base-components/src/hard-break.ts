@@ -1,12 +1,12 @@
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   chainCommands,
   DOMOutputSpec,
   exitCode,
   keymap,
   Node,
-} from '@bangle.dev/pm';
-import { createObject, getNodeType } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { createObject, getNodeType } from '@jl-fc/utils';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

@@ -3,14 +3,14 @@
  */
 
 /** @jsx psx */
-import { SpecRegistry } from '@bangle.dev/core';
-import { toggleMark } from '@bangle.dev/pm';
+import { SpecRegistry } from '@jl-fc/core';
+import { toggleMark } from '@jl-fc/pm';
 import {
   dispatchPasteEvent,
   psx,
   selectNodeAt,
   typeText,
-} from '@bangle.dev/test-helpers';
+} from '@jl-fc/test-helpers';
 
 import {
   bold,

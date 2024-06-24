@@ -1,6 +1,4 @@
-import type Token from 'markdown-it/lib/token';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   Command,
   DirectEditorProps,
@@ -12,8 +10,9 @@ import {
   NodeType,
   Plugin,
   PluginKey,
-} from '@bangle.dev/pm';
-import { getNodeType, safeInsert } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { getNodeType, safeInsert } from '@jl-fc/utils';
+import type Token from 'markdown-it/lib/token';
 
 import { quote } from './helpers';
 

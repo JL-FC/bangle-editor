@@ -1,9 +1,8 @@
+import type { EditorView } from '@jl-fc/pm';
+import { PluginKey } from '@jl-fc/pm';
+import { useEditorViewContext, usePluginState } from '@jl-fc/react';
 import React, { useCallback, useMemo } from 'react';
 import reactDOM from 'react-dom';
-
-import type { EditorView } from '@bangle.dev/pm';
-import { PluginKey } from '@bangle.dev/pm';
-import { useEditorViewContext, usePluginState } from '@bangle.dev/react';
 
 import { GetEmojiGroupsType, selectEmoji } from './emoji-suggest';
 import { getSquareDimensions, resolveCounter } from './utils';

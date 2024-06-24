@@ -1,5 +1,5 @@
-import type { Node } from '@bangle.dev/pm';
-import { DebouncedFunction, debounceFn } from '@bangle.dev/utils';
+import type { Node } from '@jl-fc/pm';
+import { DebouncedFunction, debounceFn } from '@jl-fc/utils';
 
 import { Disk } from './Disk';
 

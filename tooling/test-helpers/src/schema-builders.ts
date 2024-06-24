@@ -1,5 +1,5 @@
-import { Node, Schema } from '@bangle.dev/pm';
-import { matchAllPlus, objectMapValues, weakCache } from '@bangle.dev/utils';
+import { Node, Schema } from '@jl-fc/pm';
+import { matchAllPlus, objectMapValues, weakCache } from '@jl-fc/utils';
 
 // Short hand to allow for smaller jsx syntax
 // For example instead of `<paragraph>hello world</paragraph>`

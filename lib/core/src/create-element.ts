@@ -1,4 +1,4 @@
-import { DOMOutputSpec, DOMSerializer } from '@bangle.dev/pm';
+import { DOMOutputSpec, DOMSerializer } from '@jl-fc/pm';
 
 export function createElement(spec: DOMOutputSpec): HTMLElement {
   const { dom, contentDOM } = DOMSerializer.renderSpec(window.document, spec);

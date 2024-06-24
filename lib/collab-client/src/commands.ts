@@ -1,6 +1,5 @@
+import { Command, EditorState } from '@jl-fc/pm';
 import { getVersion } from 'prosemirror-collab';
-
-import { Command, EditorState } from '@bangle.dev/pm';
 
 import {
   collabClientKey,

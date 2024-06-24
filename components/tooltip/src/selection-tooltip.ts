@@ -1,4 +1,4 @@
-import type { Command, DirectEditorProps } from '@bangle.dev/pm';
+import type { Command, DirectEditorProps } from '@jl-fc/pm';
 import {
   EditorState,
   EditorView,
@@ -6,7 +6,7 @@ import {
   Plugin,
   PluginKey,
   Transaction,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 
 import { createTooltipDOM, TooltipDOM } from './create-tooltip-dom';
 import type { TooltipRenderOpts } from './tooltip-placement';

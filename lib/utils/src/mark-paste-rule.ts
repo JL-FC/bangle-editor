@@ -1,4 +1,4 @@
-import { Fragment, Mark, MarkType, Node, Plugin, Slice } from '@bangle.dev/pm';
+import { Fragment, Mark, MarkType, Node, Plugin, Slice } from '@jl-fc/pm';
 
 export function markPasteRule(
   regexp: RegExp,

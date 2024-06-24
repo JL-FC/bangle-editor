@@ -1,6 +1,6 @@
-import { BaseRawNodeSpec, domSerializationHelpers } from '@bangle.dev/core';
-import type { MarkdownSerializerState } from '@bangle.dev/markdown';
-import type { Node } from '@bangle.dev/pm';
+import { BaseRawNodeSpec, domSerializationHelpers } from '@jl-fc/core';
+import type { MarkdownSerializerState } from '@jl-fc/markdown';
+import type { Node } from '@jl-fc/pm';
 
 const name = 'wikiLink';
 export const spec = specFactory;

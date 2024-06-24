@@ -1,7 +1,4 @@
-import type Token from 'markdown-it/lib/token';
-import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   Command,
   EditorState,
@@ -11,14 +8,14 @@ import {
   setBlockType,
   textblockTypeInputRule,
   TextSelection,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   copyEmptyCommand,
   cutEmptyCommand,
   jumpToEndOfNode,
   jumpToStartOfNode,
   moveNode,
-} from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm-commands';
 import {
   browser,
   ContentNodeWithPos,
@@ -30,7 +27,9 @@ import {
   getParaNodeType,
   insertEmpty,
   NodeWithPos,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
+import type Token from 'markdown-it/lib/token';
+import type { MarkdownSerializerState } from 'prosemirror-markdown';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

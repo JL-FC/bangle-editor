@@ -6,9 +6,9 @@ import {
   BangleEditor as CoreBangleEditor,
   BangleEditorProps as CoreBangleEditorProps,
   BangleEditorState as CoreBangleEditorState,
-} from '@bangle.dev/core';
-import { EditorView, Plugin } from '@bangle.dev/pm';
-import { objectUid } from '@bangle.dev/utils';
+} from '@jl-fc/core';
+import { EditorView, Plugin } from '@jl-fc/pm';
+import { objectUid } from '@jl-fc/utils';
 
 import { nodeViewUpdateStore, useNodeViews } from './node-view-helpers';
 import { NodeViewWrapper, RenderNodeViewsFunction } from './NodeViewWrapper';

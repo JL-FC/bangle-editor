@@ -1,13 +1,13 @@
 import React from 'react';
 import reactDOM from 'react-dom';
 
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { RawPlugins, SpecRegistry } from '@bangle.dev/core';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { RawPlugins, SpecRegistry } from '@jl-fc/core';
 import {
   BangleEditor,
   RenderNodeViewsFunction,
   useEditorState,
-} from '@bangle.dev/react';
+} from '@jl-fc/react';
 
 export function setupReactEditor({
   specRegistry,

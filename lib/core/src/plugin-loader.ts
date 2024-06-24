@@ -1,4 +1,4 @@
-import type { EditorProps } from '@bangle.dev/pm';
+import type { EditorProps } from '@jl-fc/pm';
 import {
   baseKeymap as pmBaseKeymap,
   dropCursor as pmDropCursor,
@@ -9,8 +9,8 @@ import {
   Plugin,
   Schema,
   undoInputRule as pmUndoInputRule,
-} from '@bangle.dev/pm';
-import { bangleWarn } from '@bangle.dev/utils';
+} from '@jl-fc/pm';
+import { bangleWarn } from '@jl-fc/utils';
 
 import * as editorStateCounter from './editor-state-counter';
 import * as history from './history';

@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/react-stopwatch",
-  "version": "0.32.1",
+  "name": "@jl-fc/react-stopwatch",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -15,35 +15,36 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editorgit"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editorissues"
   },
   "scripts": {
     "compile-ts": "yarn g:tsc --build $INIT_CWD",
-    "watch-ts": "yarn g:tsc -p $INIT_CWD -w"
+    "watch-ts": "yarn g:tsc -p $INIT_CWD -w",
+    "release-package": "npm publish --otp $OTP"
   },
   "dependencies": {
-    "@bangle.dev/utils": "workspace:*",
+    "@jl-fc/utils": "workspace:*",
     "@types/jest": "^29.5.3"
   },
   "peerDependencies": {
-    "@bangle.dev/core": "*",
-    "@bangle.dev/markdown": "*",
-    "@bangle.dev/pm": "*",
-    "@bangle.dev/react": "*",
+    "@jl-fc/core": "*",
+    "@jl-fc/markdown": "*",
+    "@jl-fc/pm": "*",
+    "@jl-fc/react": "*",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
-    "@bangle.dev/all-base-components": "workspace:*",
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/markdown": "workspace:*",
-    "@bangle.dev/pm": "workspace:*",
-    "@bangle.dev/react": "workspace:*",
-    "@bangle.dev/table": "workspace:*",
-    "@bangle.dev/test-helpers": "workspace:*",
+    "@jl-fc/all-base-components": "workspace:*",
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/markdown": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
+    "@jl-fc/react": "workspace:*",
+    "@jl-fc/table": "workspace:*",
+    "@jl-fc/test-helpers": "workspace:*",
     "@testing-library/react": "^11.2.7",
     "@types/react": "^17.0.45",
     "@types/react-dom": "^17.0.17",
@@ -58,6 +59,7 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }

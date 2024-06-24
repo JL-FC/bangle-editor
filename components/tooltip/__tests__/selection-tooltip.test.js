@@ -4,10 +4,10 @@
 
 /** @jsx psx */
 
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { EditorState, PluginKey, TextSelection } from '@bangle.dev/pm';
-import { psx, renderTestEditor, typeText } from '@bangle.dev/test-helpers';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { EditorState, PluginKey, TextSelection } from '@jl-fc/pm';
+import { psx, renderTestEditor, typeText } from '@jl-fc/test-helpers';
 
 import { createTooltipDOM, selectionTooltip } from '../src/index';
 import { _syncTooltipOnUpdate } from '../src/selection-tooltip';

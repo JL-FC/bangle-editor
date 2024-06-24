@@ -3,7 +3,7 @@
  */
 
 /** @jsx psx */
-import { psx, sendKeyToPm } from '@bangle.dev/test-helpers';
+import { psx, sendKeyToPm } from '@jl-fc/test-helpers';
 
 import { hardBreak } from '../src/index';
 import { defaultTestEditor } from './test-editor';

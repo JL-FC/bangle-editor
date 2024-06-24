@@ -1,7 +1,4 @@
-import type Token from 'markdown-it/lib/token';
-import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   chainCommands,
   Command,
@@ -9,14 +6,14 @@ import {
   keymap,
   Node,
   Schema,
-} from '@bangle.dev/pm';
-import type { MoveDirection } from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm';
+import type { MoveDirection } from '@jl-fc/pm-commands';
 import {
   copyEmptyCommand,
   cutEmptyCommand,
   moveNode,
   parentHasDirectParentOfType,
-} from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm-commands';
 import {
   browser,
   createObject,
@@ -24,7 +21,9 @@ import {
   filter,
   getNodeType,
   insertEmpty,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
+import type Token from 'markdown-it/lib/token';
+import type { MarkdownSerializerState } from 'prosemirror-markdown';
 
 import {
   backspaceKeyCommand,

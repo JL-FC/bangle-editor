@@ -1,7 +1,6 @@
+import { SpecRegistry } from '@jl-fc/core';
 import markdownIt from 'markdown-it';
 import { MarkdownParser } from 'prosemirror-markdown';
-
-import { SpecRegistry } from '@bangle.dev/core';
 
 import { markdownLoader } from './markdown-loader';
 import { tableMarkdownItPlugin } from './table-markdown-it-plugin';

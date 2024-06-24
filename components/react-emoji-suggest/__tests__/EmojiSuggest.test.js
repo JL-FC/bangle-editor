@@ -2,9 +2,8 @@
  * @jest-environment jsdom
  */
 /** @jsx pjsx */
+import { pjsx } from '@jl-fc/react/__tests__/helpers/index';
 import { render as _render } from '@testing-library/react';
-
-import { pjsx } from '@bangle.dev/react/__tests__/helpers/index';
 
 import { EmojiSuggestContainer } from '../src/EmojiSuggest';
 

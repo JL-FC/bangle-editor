@@ -1,6 +1,6 @@
 {
   "name": "e2e-tests",
-  "version": "0.32.1",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -13,10 +13,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editorgit"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editorissues"
   },
   "scripts": {
     "build": "yarn vite build",
@@ -26,21 +26,21 @@
     "g:playwright-dep": "yarn playwright install && yarn playwright install-deps"
   },
   "dependencies": {
-    "@bangle.dev/all-base-components": "workspace:*",
-    "@bangle.dev/collab-client": "workspace:*",
-    "@bangle.dev/collab-comms": "workspace:*",
-    "@bangle.dev/collab-manager": "workspace:*",
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/disk": "workspace:*",
-    "@bangle.dev/markdown": "workspace:*",
-    "@bangle.dev/pm": "workspace:*",
-    "@bangle.dev/react": "workspace:*",
-    "@bangle.dev/react-menu": "workspace:*",
-    "@bangle.dev/react-sticker": "workspace:*",
-    "@bangle.dev/react-stopwatch": "workspace:*",
-    "@bangle.dev/table": "workspace:*",
-    "@bangle.dev/tooltip": "workspace:*",
-    "@bangle.dev/utils": "workspace:*",
+    "@jl-fc/all-base-components": "workspace:*",
+    "@jl-fc/collab-client": "workspace:*",
+    "@jl-fc/collab-comms": "workspace:*",
+    "@jl-fc/collab-manager": "workspace:*",
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/disk": "workspace:*",
+    "@jl-fc/markdown": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
+    "@jl-fc/react": "workspace:*",
+    "@jl-fc/react-menu": "workspace:*",
+    "@jl-fc/react-sticker": "workspace:*",
+    "@jl-fc/react-stopwatch": "workspace:*",
+    "@jl-fc/table": "workspace:*",
+    "@jl-fc/tooltip": "workspace:*",
+    "@jl-fc/utils": "workspace:*",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^29.5.3",
     "@types/react": "^17.0.45",

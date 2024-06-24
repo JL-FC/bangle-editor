@@ -1,7 +1,7 @@
-import type { RawPlugins } from '@bangle.dev/core';
-import type { Schema } from '@bangle.dev/pm';
-import { Plugin, PluginKey } from '@bangle.dev/pm';
-import { assertNotUndefined } from '@bangle.dev/utils';
+import type { RawPlugins } from '@jl-fc/core';
+import type { Schema } from '@jl-fc/pm';
+import { Plugin, PluginKey } from '@jl-fc/pm';
+import { assertNotUndefined } from '@jl-fc/utils';
 
 export const plugins = pluginsFactory;
 

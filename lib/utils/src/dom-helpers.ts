@@ -1,4 +1,4 @@
-import { DOMOutputSpec, DOMSerializer, Node } from '@bangle.dev/pm';
+import { DOMOutputSpec, DOMSerializer, Node } from '@jl-fc/pm';
 
 import { objectFilter } from './js-utils';
 

@@ -3,13 +3,13 @@
  */
 
 /** @jsx psx */
-import { SpecRegistry } from '@bangle.dev/core';
+import { SpecRegistry } from '@jl-fc/core';
 import {
   psx,
   renderTestEditor,
   sendKeyToPm,
   setSelectionNear,
-} from '@bangle.dev/test-helpers';
+} from '@jl-fc/test-helpers';
 
 import { subscript, superscript } from '../src/index';
 

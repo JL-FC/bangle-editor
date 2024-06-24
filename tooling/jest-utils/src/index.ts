@@ -1,9 +1,8 @@
 /// <reference path="./missing-test-types.d.ts" />
+import type { Selection } from '@jl-fc/pm';
+import { Node, NodeSelection } from '@jl-fc/pm';
+import { getDocLabels } from '@jl-fc/test-helpers';
 import prettier from 'prettier';
-
-import type { Selection } from '@bangle.dev/pm';
-import { Node, NodeSelection } from '@bangle.dev/pm';
-import { getDocLabels } from '@bangle.dev/test-helpers';
 
 globalThis.DOMRect = class DOMRect {
   static fromRect(other: DOMRect) {

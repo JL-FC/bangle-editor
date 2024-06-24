@@ -1,4 +1,4 @@
-import { domSerializationHelpers, NodeView } from '@bangle.dev/core';
+import { domSerializationHelpers, NodeView } from '@jl-fc/core';
 import React from 'react';
 
 export class Banana extends React.Component {

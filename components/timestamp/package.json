@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/timestamp",
-  "version": "0.32.1",
+  "name": "@jl-fc/timestamp",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -15,22 +15,23 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editor/issues"
   },
   "scripts": {
     "compile-ts": "yarn g:tsc --build $INIT_CWD",
-    "watch-ts": "yarn g:tsc -p $INIT_CWD -w"
+    "watch-ts": "yarn g:tsc -p $INIT_CWD -w",
+    "release-package": "npm publish --otp $OTP"
   },
   "peerDependencies": {
-    "@bangle.dev/core": "*",
-    "@bangle.dev/pm": "*"
+    "@jl-fc/core": "*",
+    "@jl-fc/pm": "*"
   },
   "devDependencies": {
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/pm": "workspace:*"
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/pm": "workspace:*"
   },
   "publishConfig": {
     "access": "public",
@@ -40,10 +41,11 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@bangle.dev/utils": "workspace:*",
+    "@jl-fc/utils": "workspace:*",
     "@types/jest": "^29.5.3"
   }
 }

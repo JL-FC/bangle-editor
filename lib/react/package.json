@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/react",
-  "version": "0.32.1",
+  "name": "@jl-fc/react",
+  "version": "0.32.2",
   "homepage": "https://bangle.dev",
   "authors": [
     {
@@ -15,10 +15,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bangle-io/bangle.dev.git"
+    "url": "git+https://github.com/JL-FC/bangle-editorgit"
   },
   "bugs": {
-    "url": "https://github.com/bangle-io/bangle.dev/issues"
+    "url": "https://github.com/JL-FC/bangle-editorissues"
+  },
+  "scripts": {
+    "release-package": "npm publish --otp $OTP"
   },
   "publishConfig": {
     "access": "public",
@@ -28,25 +31,26 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@bangle.dev/utils": "workspace:*",
+    "@jl-fc/utils": "workspace:*",
     "@types/jest": "^29.5.3",
     "prop-types": "^15.7.2",
     "punycode": "^2.1.1"
   },
   "peerDependencies": {
-    "@bangle.dev/core": "*",
-    "@bangle.dev/pm": "*",
+    "@jl-fc/core": "*",
+    "@jl-fc/pm": "*",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
-    "@bangle.dev/all-base-components": "workspace:*",
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/pm": "workspace:*",
-    "@bangle.dev/test-helpers": "workspace:*",
+    "@jl-fc/all-base-components": "workspace:*",
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
+    "@jl-fc/test-helpers": "workspace:*",
     "@testing-library/dom": "^7.31.2",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",

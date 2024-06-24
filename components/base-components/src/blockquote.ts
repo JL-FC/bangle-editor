@@ -1,6 +1,4 @@
-import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   Command,
   DOMOutputSpec,
@@ -9,12 +7,12 @@ import {
   Node,
   wrapIn,
   wrappingInputRule,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   copyEmptyCommand,
   cutEmptyCommand,
   moveNode,
-} from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm-commands';
 import {
   createObject,
   filter,
@@ -22,7 +20,8 @@ import {
   getNodeType,
   getParaNodeType,
   insertEmpty,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
+import type { MarkdownSerializerState } from 'prosemirror-markdown';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

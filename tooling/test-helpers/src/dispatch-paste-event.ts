@@ -1,5 +1,5 @@
-import { EditorView } from '@bangle.dev/pm';
-import { browser } from '@bangle.dev/utils';
+import { EditorView } from '@jl-fc/pm';
+import { browser } from '@jl-fc/utils';
 
 import { createEvent } from './create-event';
 

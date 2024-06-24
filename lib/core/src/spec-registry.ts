@@ -1,10 +1,10 @@
-import { MarkSpec, NodeSpec, Schema } from '@bangle.dev/pm';
+import { MarkSpec, NodeSpec, Schema } from '@jl-fc/pm';
 import type {
   MarkdownParser,
   MarkdownSerializer,
   UnnestObjValue,
-} from '@bangle.dev/shared-types';
-import { bangleWarn } from '@bangle.dev/utils';
+} from '@jl-fc/shared-types';
+import { bangleWarn } from '@jl-fc/utils';
 
 import * as doc from './doc';
 import * as paragraph from './paragraph';

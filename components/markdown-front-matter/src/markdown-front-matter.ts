@@ -1,5 +1,5 @@
-import type { BaseRawNodeSpec } from '@bangle.dev/core';
-import { domSerializationHelpers } from '@bangle.dev/core';
+import type { BaseRawNodeSpec } from '@jl-fc/core';
+import { domSerializationHelpers } from '@jl-fc/core';
 
 export const spec = specFactory;
 

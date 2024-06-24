@@ -5,7 +5,7 @@ import {
   keymap,
   Schema,
   setBlockType,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   copyEmptyCommand,
   cutEmptyCommand,
@@ -13,7 +13,7 @@ import {
   jumpToStartOfNode,
   moveNode,
   parentHasDirectParentOfType,
-} from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm-commands';
 import {
   browser,
   createObject,
@@ -22,7 +22,7 @@ import {
   getNodeType,
   getParaNodeType,
   insertEmpty,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 import type { RawPlugins } from './plugin-loader';
 import type { BaseRawNodeSpec, RawSpecs } from './spec-registry';

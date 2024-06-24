@@ -1,6 +1,6 @@
 {
-  "name": "@bangle.dev/pm",
-  "version": "0.32.1",
+  "name": "@jl-fc/pm",
+  "version": "0.32.2",
   "type": "module",
   "main": "src/index.ts",
   "module": "src/index.ts",
@@ -17,7 +17,8 @@
   },
   "scripts": {
     "compile-ts": "yarn g:tsc --build $INIT_CWD",
-    "watch-ts": "yarn g:tsc -p $INIT_CWD -w"
+    "watch-ts": "yarn g:tsc -p $INIT_CWD -w",
+    "release-package": "npm publish --otp $OTP"
   },
   "husky": {
     "hooks": {
@@ -56,6 +57,7 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }

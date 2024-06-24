@@ -3,15 +3,15 @@
  */
 
 /** @jsx psx */
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { heading } from '@bangle.dev/base-components';
-import { SpecRegistry } from '@bangle.dev/core';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { heading } from '@jl-fc/base-components';
+import { SpecRegistry } from '@jl-fc/core';
 import {
   psx,
   renderTestEditor,
   sendKeyToPm,
   typeText,
-} from '@bangle.dev/test-helpers';
+} from '@jl-fc/test-helpers';
 
 import { trailingNode } from '../src/index';
 

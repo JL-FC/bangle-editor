@@ -1,14 +1,17 @@
 {
-  "name": "@bangle.dev/all-base-components",
-  "version": "0.32.1",
+  "name": "@jl-fc/all-base-components",
+  "version": "0.32.2",
   "type": "module",
   "main": "src/index.ts",
   "module": "src/index.ts",
   "description": "A utility function to get all base components",
+  "scripts": {
+    "release-package": "npm publish --otp $OTP"
+  },
   "dependencies": {
-    "@bangle.dev/base-components": "workspace:*",
-    "@bangle.dev/core": "workspace:*",
-    "@bangle.dev/pm": "workspace:*",
+    "@jl-fc/base-components": "workspace:*",
+    "@jl-fc/core": "workspace:*",
+    "@jl-fc/pm": "workspace:*",
     "@types/jest": "^29.5.3"
   },
   "publishConfig": {
@@ -19,6 +22,7 @@
     "exports": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "registry": "https://npm.pkg.github.com/"
   }
 }

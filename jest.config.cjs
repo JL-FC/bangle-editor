@@ -2,9 +2,9 @@ module.exports = {
   testRunner: 'jest-circus/runner',
   testPathIgnorePatterns: [`<rootDir>/tooling/e2e-tests/`, `<rootDir>/.yarn`],
   transformIgnorePatterns: [
-    'node_modules/(?!((@popperjs)|(debounce-fn)|(@bangle.dev/pm)|(prosemirror-utils-bangle))/)',
+    'node_modules/(?!((@popperjs)|(debounce-fn)|(@jl-fc/pm)|(prosemirror-utils-bangle))/)',
   ],
-  setupFilesAfterEnv: ['@bangle.dev/jest-utils'],
+  setupFilesAfterEnv: ['@jl-fc/jest-utils'],
   coverageReporters: ['json', 'lcov', 'text', 'clover'],
   coveragePathIgnorePatterns: [
     `<rootDir>/.yarn`,

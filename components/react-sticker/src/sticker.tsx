@@ -1,16 +1,11 @@
 /// <reference path="./missing-types.d.ts" />
 
+import { domSerializationHelpers, NodeView, NodeViewProps } from '@jl-fc/core';
+import type { Command, InputRule, Plugin, Schema } from '@jl-fc/pm';
+import { keymap, Node } from '@jl-fc/pm';
+import { getNodeType } from '@jl-fc/utils';
 import PropTypes from 'prop-types';
 import React from 'react';
-
-import {
-  domSerializationHelpers,
-  NodeView,
-  NodeViewProps,
-} from '@bangle.dev/core';
-import type { Command, InputRule, Plugin, Schema } from '@bangle.dev/pm';
-import { keymap, Node } from '@bangle.dev/pm';
-import { getNodeType } from '@bangle.dev/utils';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

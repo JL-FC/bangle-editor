@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 /** @jsx psx */
-import { psx, sendKeyToPm, typeChar, typeText } from '@bangle.dev/test-helpers';
+import { psx, sendKeyToPm, typeChar, typeText } from '@jl-fc/test-helpers';
 
 import { heading } from '../src/index';
 import { defaultTestEditor } from './test-editor';

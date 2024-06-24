@@ -1,5 +1,5 @@
-import { DirectEditorProps, EditorView } from '@bangle.dev/pm';
-import { isTestEnv, toHTMLString } from '@bangle.dev/utils';
+import { DirectEditorProps, EditorView } from '@jl-fc/pm';
+import { isTestEnv, toHTMLString } from '@jl-fc/utils';
 
 import { BangleEditorState } from './bangle-editor-state';
 

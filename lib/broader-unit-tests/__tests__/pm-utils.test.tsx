@@ -3,10 +3,10 @@
  */
 /** @jsx psx */
 
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { psx, renderTestEditor } from '@bangle.dev/test-helpers';
-import { findCutBefore, isFirstChildOfParent } from '@bangle.dev/utils';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { psx, renderTestEditor } from '@jl-fc/test-helpers';
+import { findCutBefore, isFirstChildOfParent } from '@jl-fc/utils';
 
 const testEditor = renderTestEditor({
   specRegistry: new SpecRegistry(defaultSpecs()),

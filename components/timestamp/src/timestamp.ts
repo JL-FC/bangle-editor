@@ -1,5 +1,5 @@
-import type { RawPlugins } from '@bangle.dev/core';
-import { keymap } from '@bangle.dev/pm';
+import type { RawPlugins } from '@jl-fc/core';
+import { keymap } from '@jl-fc/pm';
 
 export const plugins = pluginsFactory;
 

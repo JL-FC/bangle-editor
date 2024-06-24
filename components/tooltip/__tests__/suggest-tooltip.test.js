@@ -4,17 +4,17 @@
 
 /** @jsx psx */
 
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { SpecRegistry } from '@bangle.dev/core';
-import { PluginKey, Selection } from '@bangle.dev/pm';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { SpecRegistry } from '@jl-fc/core';
+import { PluginKey, Selection } from '@jl-fc/pm';
 import {
   psx,
   renderTestEditor,
   sendKeyToPm,
   typeChar,
   typeText,
-} from '@bangle.dev/test-helpers';
-import { sleep } from '@bangle.dev/utils';
+} from '@jl-fc/test-helpers';
+import { sleep } from '@jl-fc/utils';
 
 import { suggestTooltip } from '../src/index';
 import { replaceSuggestMarkWith } from '../src/suggest-tooltip';

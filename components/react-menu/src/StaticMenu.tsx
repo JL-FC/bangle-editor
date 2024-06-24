@@ -1,9 +1,8 @@
+import { editorStateCounter } from '@jl-fc/base-components';
+import { BangleEditor } from '@jl-fc/core';
+import { EditorViewContext, usePluginState } from '@jl-fc/react';
 import PropTypes from 'prop-types';
 import React from 'react';
-
-import { editorStateCounter } from '@bangle.dev/base-components';
-import { BangleEditor } from '@bangle.dev/core';
-import { EditorViewContext, usePluginState } from '@bangle.dev/react';
 
 interface StaticMenuProps {
   renderMenu(): JSX.Element;

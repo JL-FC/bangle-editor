@@ -1,1 +1,1 @@
-export { Plugin, PluginKey } from '@bangle.dev/pm';
+export { Plugin, PluginKey } from '@jl-fc/pm';

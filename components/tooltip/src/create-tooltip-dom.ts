@@ -1,4 +1,4 @@
-import { DOMOutputSpec, DOMSerializer } from '@bangle.dev/pm';
+import { DOMOutputSpec, DOMSerializer } from '@jl-fc/pm';
 
 export interface TooltipDOM {
   dom: HTMLElement;

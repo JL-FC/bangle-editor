@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 /** @jsx psx */
-import { psx, typeText } from '@bangle.dev/test-helpers';
+import { psx, typeText } from '@jl-fc/test-helpers';
 
 import { defaultTestEditor } from './test-editor';
 

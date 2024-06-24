@@ -16,13 +16,7 @@ import * as orderedList from './ordered-list';
 import * as strike from './strike';
 import * as underline from './underline';
 
-export {
-  doc,
-  editorStateCounter,
-  history,
-  paragraph,
-  text,
-} from '@bangle.dev/core';
+export { doc, editorStateCounter, history, paragraph, text } from '@jl-fc/core';
 
 export {
   blockquote,

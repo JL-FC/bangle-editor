@@ -1,20 +1,19 @@
 import './style.css';
 
-import React, { useCallback, useEffect, useState } from 'react';
-import reactDOM from 'react-dom';
-
-import { defaultPlugins, defaultSpecs } from '@bangle.dev/all-base-components';
-import { collabClient } from '@bangle.dev/collab-client';
-import { CollabMessageBus } from '@bangle.dev/collab-comms';
-import { CollabManager, CollabServerState } from '@bangle.dev/collab-manager';
+import { defaultPlugins, defaultSpecs } from '@jl-fc/all-base-components';
+import { collabClient } from '@jl-fc/collab-client';
+import { CollabMessageBus } from '@jl-fc/collab-comms';
+import { CollabManager, CollabServerState } from '@jl-fc/collab-manager';
 import {
   BangleEditor as CoreBangleEditor,
   RawPlugins,
   SpecRegistry,
-} from '@bangle.dev/core';
-import { Node } from '@bangle.dev/pm';
-import { BangleEditor, useEditorState } from '@bangle.dev/react';
-import { Emitter } from '@bangle.dev/utils';
+} from '@jl-fc/core';
+import { Node } from '@jl-fc/pm';
+import { BangleEditor, useEditorState } from '@jl-fc/react';
+import { Emitter } from '@jl-fc/utils';
+import React, { useCallback, useEffect, useState } from 'react';
+import reactDOM from 'react-dom';
 
 import { win } from '../../setup/entry-helpers';
 import {

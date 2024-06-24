@@ -1,6 +1,6 @@
 import type Token from 'markdown-it/lib/token';
 
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   Command,
   DOMOutputSpec,
@@ -12,14 +12,14 @@ import {
   Node,
   Plugin,
   Schema,
-} from '@bangle.dev/pm';
+} from '@jl-fc/pm';
 import {
   assertNotUndefined,
   filter,
   getMarkAttrs,
   mapSlice,
   matchAllPlus,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 import { quote } from './helpers';
 

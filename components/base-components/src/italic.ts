@@ -1,18 +1,12 @@
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
-import {
-  Command,
-  EditorState,
-  keymap,
-  Schema,
-  toggleMark,
-} from '@bangle.dev/pm';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
+import { Command, EditorState, keymap, Schema, toggleMark } from '@jl-fc/pm';
 import {
   assertNotUndefined,
   createObject,
   isMarkActiveInSelection,
   markInputRule,
   markPasteRule,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;

@@ -1,7 +1,4 @@
-import type Token from 'markdown-it/lib/token';
-import type { MarkdownSerializerState } from 'prosemirror-markdown';
-
-import type { RawPlugins, RawSpecs } from '@bangle.dev/core';
+import type { RawPlugins, RawSpecs } from '@jl-fc/core';
 import {
   DOMOutputSpec,
   EditorState,
@@ -9,8 +6,8 @@ import {
   Node,
   setBlockType,
   textblockTypeInputRule,
-} from '@bangle.dev/pm';
-import { moveNode } from '@bangle.dev/pm-commands';
+} from '@jl-fc/pm';
+import { moveNode } from '@jl-fc/pm-commands';
 import {
   createObject,
   filter,
@@ -18,7 +15,9 @@ import {
   getNodeType,
   getParaNodeType,
   insertEmpty,
-} from '@bangle.dev/utils';
+} from '@jl-fc/utils';
+import type Token from 'markdown-it/lib/token';
+import type { MarkdownSerializerState } from 'prosemirror-markdown';
 
 export const spec = specFactory;
 export const plugins = pluginsFactory;
